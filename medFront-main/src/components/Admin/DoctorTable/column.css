@@ -1,0 +1,14 @@
+.column_containerrow{
+ display: flex;
+}
+.column_containerrow>button{
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+svg.MuiSvgIcon-root.edit{
+    color: green     ;
+}
+svg.MuiSvgIcon-root.delete{
+    color: red     ;
+}

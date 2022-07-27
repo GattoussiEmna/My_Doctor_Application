@@ -1,0 +1,61 @@
+.banner{
+    display: flex;
+    height: 112vh;
+    justify-content: space-around;
+    align-items: center;
+  /*  background-image: url(../../../images/banner_bg.faf808e4.png);*/
+    font-family: "Roboto",sans-serif;
+    padding-top: 8rem;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0 0 2rem;
+}
+.banner_para{
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #242429;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.banner_header{
+    text-align: left;
+    font-family: "Playfair Display",serif;
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+.banner_detailsPara{
+    font-size: 15px;
+    line-height: 30px;
+    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.banner_leftSide{
+    width: 40%;
+     align-items: center;
+    padding-left: 5rem;
+}
+.banner_rightSide>img{
+    padding: 5rem;
+    width: 50rem;
+
+}
+.banner_btn{
+    padding: 16px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Roboto",sans-serif;
+    background-size: 200% auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: linear-gradient(90deg,#004ef7,#82b7f8,#c0d2f7);   
+}
+.banner_emptydiv{
+    margin-top: 20px;
+}

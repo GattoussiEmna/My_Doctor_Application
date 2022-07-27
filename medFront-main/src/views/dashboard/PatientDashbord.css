@@ -1,0 +1,15 @@
+.pateintDashbord{
+    background-color:white ;
+    display: grid;
+    align-items: center;
+    color:black !important;
+    padding: 30px;
+}
+.patientDashbord_welContainer{
+    display :flex;
+   align-items: center;
+   margin: auto;
+   width: 50%;
+   
+   padding: 10px;
+}

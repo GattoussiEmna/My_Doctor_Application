@@ -1,0 +1,12 @@
+.patient_ifoContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.patient_icon{
+    flex: 1
+}
+.patient_spContainer{
+    flex:9;
+    
+}

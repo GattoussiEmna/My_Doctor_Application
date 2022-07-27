@@ -1,0 +1,86 @@
+.reservation{
+    padding-top: 10%;
+   
+}
+.reservation_filter{
+    display: flex;
+    align-items: center;
+    padding-left: 7%;
+    padding-top: 39px;
+}
+.reservation_doctorList{
+    max-width: 90%;
+    padding-left: 70px;
+    min-height: 100vh;
+    padding-top:3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;  
+}
+.doctor_card{
+    width: 300px;
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid #f0f0f0;
+    height: 480px;
+}
+.doctor_card:hover{
+    cursor: pointer;
+    border-color: transparent;
+    -webkit-box-shadow: 0 1px 2px -2px rgb(0 0 0 / 16%), 0 3px 6px 0 rgb(0 0 0 / 12%), 0 5px 12px 4px rgb(0 0 0 / 9%);
+    box-shadow: 0 1px 2px -2px rgb(0 0 0 / 16%), 0 3px 6px 0 rgb(0 0 0 / 12%), 0 5px 12px 4px rgb(0 0 0 / 9%);
+}
+.doctor_card_cover>img{
+    height: 18rem;
+}
+.doctor_spe{
+    color: rgba(0,0,0,.45);
+}
+.doc_adress{
+    color: blue !important;
+    padding: 10px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height:400px;
+    perspective: 1000px;
+    margin-bottom: 23px;
+  
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: white;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: black;
+    padding-top: 30px;
+    color: white;
+    transform: rotateY(180deg);
+  }

@@ -1,0 +1,89 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+      height: 92%;
+      width:auto;
+      overflow-x: hidden;
+      overflow-y: auto;
+      padding: 20px;
+      /* overflow: scroll; */
+      padding-bottom: 10px;
+      overflow-x:auto;
+  }
+  .Filtredtable {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 80%;
+      box-shadow: 0 1px 1px 0 rgb(60 75 100 / 14%), 0 2px 1px -1px rgb(60 75 100 / 12%), 0 1px 3px 0 rgb(60 75 100 / 20%);
+   
+    }
+   .Filtredtable th {
+     background-color: black !important ;
+   } 
+    .Filtredtable td, .Filtredtable th {
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+   
+    
+  .tbody:hover {background-color: #ddd;}
+    
+    .Filtredtable th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+    
+      color: white;
+    }
+  .table__pagination{
+    margin-top: 10px;
+    
+  }
+  .pagination__list{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+      margin-left: -38px;
+    
+  }
+  .pagination__list >li >a{
+     position: relative;
+      display: block;
+      padding: .5rem .75rem;
+      line-height: 1.25;
+      text-decoration: none;
+      color: #321fdb;
+      background-color: #fff;
+      border: 1px solid #d8dbe0;
+  }
+  
+  .pagination__list >li >a:hover{
+    z-index: 2;
+    text-decoration: none;
+    color: #231698;
+    background-color: #d8dbe0;
+    border-color: #c4c9d0;
+  }
+  
+  .disableLink{
+    pointer-events: none !important;
+    cursor: default !important;
+   
+      color: #8a93a2 !important;
+      background-color: #fff !important;
+      border-color: #c4c9d0 !important;
+  }
+  .selected{
+    background-color: #231698 !important;
+    color: #d8dbe0 !important;
+  }
+  .activeLink{
+    z-index: 3;
+      color: #fff !important;
+      background-color: #321fdb !important;
+      border-color: #321fdb !important;
+  }

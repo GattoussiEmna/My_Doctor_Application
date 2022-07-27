@@ -1,0 +1,22 @@
+.input__columnFilter{
+    background-clip: padding-box;
+    color: #5c6873;
+    background-color: #fff;
+    border: 1px solid #e4e7ea;
+    height: calc(1.5em + .5rem + 2px);
+    padding: .25rem .5rem;
+    font-size: .76562rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.input__columnFilter:focus{
+    color: #5c6873;
+    background-color: #fff;
+    border-color: #8ad4ee;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(50 31 219 / 25%);
+}
+
+

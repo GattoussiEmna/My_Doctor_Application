@@ -1,0 +1,59 @@
+.home_navBar{
+font-family: 'Times New Roman', Times, serif;
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 8%;
+    margin-top: 2rem;
+    align-items: center;
+    background-color: transparent;
+    height: 40px;
+}
+.home_navBar_link{
+    padding-top: 20px;
+}
+.home_navBar_link li{
+    display: inline;
+    padding-left: 2rem;
+    font-size: 14px;
+}
+.home_navBar_link li>a{
+    text-decoration: none;
+    color: #242429;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 17px;
+    transition: color .3s ;
+}
+.home_navBar_link li>a:hover{
+    color: #40a9ff;
+}
+.navBar_btn{
+    border: 2px solid lightgray !important;
+    background-color: #d3d3d380 !important;
+    border-radius: 50px !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+.home_navBarMobileIcon{
+    display: none;
+}
+@media screen and (max-width: 780px){
+    .home_navBarMobileIcon{
+        display:block;
+        position: absolute;
+        top: -24px;
+        right:0;
+        transform : translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+
+    }
+    .home_navBar_link{
+        display: none;
+    }
+}
+.about_avd>li{
+    padding: 20px;
+}
